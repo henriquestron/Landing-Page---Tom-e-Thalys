@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(53, 21, 0);
+}
+@font-face{
+    font-family: mont;
+    src: url(./Materiais/Montserrat-Light.otf);
+}
+.cabecalho-logo{
+    display: flex;
+    justify-content: center;
+}
+
+.logo{
+    height: 100px;
+    margin-top: 20px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h3{
+    font-family: mont;
+    color: white;
+    margin-top: 20px;
+}
+.player{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    
+}
+.player iframe{
+    height: 300px;
+    width: 530px;
+}
+.logos{
+    display: flex;
+        flex-direction: row;
+        gap: 80px;
+        margin-top: 20px;
+}
+.logos img{
+    display: flex;
+        height: 50px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+footer img{
+    display: flex;
+    height: 60px;
+}
+
+@media (max-width: 768px){
+    body{
+        background-color: rgb(255, 255, 255);
+        background-image: url(./Materiais/8.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center top;
+       
+    }
+    
+    .cabecalho-logo{
+        display: flex;
+        justify-content: center;
+        
+    }
+    .logo{
+        height: 50px;
+        margin-top: 210px;
+        
+    
+        
+    }
+    .player{
+        display: flex;
+        border-color: rgb(238, 255, 0);
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+        
+        }
+        .player iframe{
+            display: flex;
+            width: 380px;
+            height: 230px;
+            justify-content: center;
+        align-items: center;
+        border: 2px  solid #ffa901
+     
+    }
+    
+    main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    
+    h3{
+        color: rgb(255, 255, 255);
+        font-size: 13px;
+        font-family: mont;
+    }
+    .linha{
+        display: flex;
+        justify-content: center;
+        
+    }
+    .linha img{
+        display: flex;
+        width: 300px;
+    }
+    .logos{
+        display: flex;
+        flex-direction: row;
+        gap: 50px;
+        margin-top: 20px;
+    }
+    .logos img{
+        display: flex;
+        height: 40px;
+    }
+
+    
+    footer{
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+    }
+    footer img{
+        display: flex;
+        height: 40px;
+    }
+}
